@@ -1,0 +1,54 @@
+name: kgarage
+description: "Garage management application"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.4.0
+
+  # UI & Utils
+  dropdown_search: ^5.0.6
+  intl: ^0.17.0
+  url_launcher: ^6.2.10
+  share_plus: ^12.0.1
+  flutter_speed_dial: ^7.0.0
+
+  # PDF & Charts
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  charts_flutter: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  windows:
+    generate: true
+  web:
+    generate: true
+  image_path: "assets/images/1.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
